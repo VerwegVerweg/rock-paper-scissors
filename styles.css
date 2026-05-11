@@ -65,3 +65,27 @@ h1 {
 #computerScoreDisplay {
   color: hsl(0, 84%, 60%);
 }
+
+@media (max-width: 600px) {
+  .choices button {
+    font-size: 4rem;
+    min-width: 100px;
+  }
+
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  #playerDisplay,
+  #computerDisplay {
+    font-size: 1.7rem;
+  }
+
+  #resultDisplay {
+    font-size: 3rem;
+  }
+
+  .scoreDisplay {
+    font-size: 1.7rem;
+  }
+}
